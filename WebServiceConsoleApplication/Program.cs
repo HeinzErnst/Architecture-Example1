@@ -6,7 +6,7 @@ namespace WebServiceConsoleApplication
     {
         static void Main(string[] args)
         {
-            var server = new NancyServer();
+            var server = new NancyHost();
             server.Start();
         }
     }

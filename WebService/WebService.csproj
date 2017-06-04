@@ -56,10 +56,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HomeBootstrapper.cs" />
     <Compile Include="Orders\OrderModule.cs" />
     <Compile Include="Products\CategoryModule.cs" />
-    <Compile Include="NancyServer.cs" />
+    <Compile Include="NancyHost.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebSite\RootModule.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

@@ -3,7 +3,7 @@ using Nancy.Hosting.Self;
 
 namespace WebService
 {
-    public class NancyServer
+    public class NancyHost
     {
         public void Start()
         {
@@ -12,7 +12,7 @@ namespace WebService
                 UrlReservations = new UrlReservations {CreateAutomatically = true}
             };
             var uri = new Uri("http://localhost:80/");
-            using (var host = new NancyHost(config, uri))
+            using (var host = new Nancy.Hosting.Self.NancyHost(config, uri))
             {
                 host.Start();
                 Console.WriteLine("Listening at port 80, press a key to stop");

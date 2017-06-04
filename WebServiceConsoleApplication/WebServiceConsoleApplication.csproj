@@ -47,12 +47,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\home\inline.bundle.js.map" />
+    <None Include="bin\Debug\home\main.bundle.js.map" />
+    <None Include="bin\Debug\home\polyfills.bundle.js.map" />
+    <None Include="bin\Debug\home\styles.bundle.js.map" />
+    <None Include="bin\Debug\home\vendor.bundle.js.map" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WebService\WebService.csproj">
       <Project>{00d7e19e-b5a1-46e0-9a05-7a9e2e2dada5}</Project>
       <Name>WebService</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\home\favicon.ico" />
+    <None Include="bin\Debug\home\index - Kopie.html" />
+    <None Include="bin\Debug\home\index.html" />
+    <None Include="bin\Debug\home\inline.bundle.js" />
+    <None Include="bin\Debug\home\main.bundle.js" />
+    <None Include="bin\Debug\home\polyfills.bundle.js" />
+    <None Include="bin\Debug\home\styles.bundle.js" />
+    <None Include="bin\Debug\home\vendor.bundle.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
